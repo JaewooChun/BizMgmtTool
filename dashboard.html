@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>BizTool Dashboard</title>
 
     <!--add in preconnect for fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
 </head>
 
 <body>
@@ -40,8 +41,44 @@
             <img class="catalog-icon" src="images/icons/catalog-inverted.png">
             <div>catalog</div>
         </div>
+        <div class="sidebar-link">
+            <img class="catalog-icon" src="images/icons/catalog-inverted.png">
+            <div>overview</div>
         </div>
     </nav>
+
+
+    <div class="financial-summaries">
+        <div class="financial-summaries-title">
+            Financial Summaries
+        </div>
+        <div class="financial-summaries-grid">
+            <div class="financial-summaries-month">
+                <div class="financial-summaries-month-title">
+                    Month
+                </div>
+                <div class="financial-summaries-month-amount">
+                    $90,000
+                </div>
+            </div>
+            <div class="financial-summaries-quarter">
+                <div class="financial-summaries-quarter-title">
+                    Quarter
+                </div>
+                <div class="financial-summaries-quarter-amount">
+                    $150,000
+                </div>
+            </div>
+            <div class="financial-summaries-year-to-date">
+                <div class="financial-summaries-year-to-date-title">
+                    Year-to-date
+                </div>
+                <div class="financial-summaries-year-to-date-amount">
+                    $175,0000
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

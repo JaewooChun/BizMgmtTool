@@ -1,5 +1,5 @@
 .header {
-    height: 70px;
+    height: 110px;
 
     display: flex;
     /*Maybe change to space-between when 
@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(51, 51, 51);
     color: white;
     font-family: Arial;
 
@@ -30,17 +30,17 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .header-title {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 525;
 
 }
 
 .profile-pic-placeholder {
-    height: 24px;
-    border-radius: 12px;
+    height: 30px;
+    border-radius: 15px;
     margin-right: 10px;
 }
