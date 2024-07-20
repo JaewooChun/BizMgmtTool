@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizTool Dashboard</title>
+
+    <!--add in preconnect for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <div class="header-title">
+                Financial Summary Dashboard
+            </div>
+            <div class="user-name-picture-container">
+                <img class="profile-pic-placeholder" src="images/profile-pic-placeholder.png">
+                <p>Hello, John Doe</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img class="dashboard-icon" src="images/icons/dashboard-inverted.png">
+            <div>dashboard</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="catalog-icon" src="images/icons/catalog-inverted.png">
+            <div>catalog</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="catalog-icon" src="images/icons/catalog-inverted.png">
+            <div>overview</div>
+        </div>
+    </nav>
+
+
+    <div class="financial-summaries">
+        <div class="financial-summaries-title">
+            Financial Summaries
+        </div>
+        <div class="financial-summaries-grid">
+            <div class="financial-summaries-month">
+                <div class="financial-summaries-month-title">
+                    Month
+                </div>
+                <div class="financial-summaries-month-amount">
+                    $90,000
+                </div>
+            </div>
+            <div class="financial-summaries-quarter">
+                <div class="financial-summaries-quarter-title">
+                    Quarter
+                </div>
+                <div class="financial-summaries-quarter-amount">
+                    $150,000
+                </div>
+            </div>
+            <div class="financial-summaries-year-to-date">
+                <div class="financial-summaries-year-to-date-title">
+                    Year-to-date
+                </div>
+                <div class="financial-summaries-year-to-date-amount">
+                    $175,0000
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="producer-advances-quarter">
+        <div class="producer-advances-quarter-title">
+            Producer Advances Received This Quarter
+        </div>
+        <div class="pqa-row">
+            <div class="pqa-title-entry">Song Title</div>
+            <div class="pqa-title-entry">Artist</div>
+            <div class="pqa-title-entry">Label</div>
+            <div class="pqa-title-entry">Amount</div>
+            <div class="pqa-title-entry">Status</div>
+            <div class="pqa-title-entry">Deposit Date</div>
+        </div>
+        <div class="pqa-row">
+            <div class="pqa-info-entry">Mood</div>
+            <div class="pqa-info-entry">24kGoldn</div>
+            <div class="pqa-info-entry">Columbia</div>
+            <div class="pqa-info-entry">$30,000</div>
+            <div class="pqa-info-entry">Countersigned</div>
+            <div class="pqa-info-entry">02/02/21</div>
+        </div>
+        <div class="pqa-row">
+            <div class="pqa-info-entry">Mood</div>
+            <div class="pqa-info-entry">24kGoldn</div>
+            <div class="pqa-info-entry">Columbia</div>
+            <div class="pqa-info-entry">$30,000</div>
+            <div class="pqa-info-entry">Countersigned</div>
+            <div class="pqa-info-entry">02/02/21</div>
+        </div>
+        <div class="pqa-row">
+            <div class="pqa-info-entry">Mood</div>
+            <div class="pqa-info-entry">24kGoldn</div>
+            <div class="pqa-info-entry">Columbia</div>
+            <div class="pqa-info-entry">$30,000</div>
+            <div class="pqa-info-entry">Countersigned</div>
+            <div class="pqa-info-entry">02/02/21</div>
+        </div>
+        <div class="pqa-row">
+            <div class="pqa-info-entry">Mood</div>
+            <div class="pqa-info-entry">24kGoldn</div>
+            <div class="pqa-info-entry">Columbia</div>
+            <div class="pqa-info-entry">$30,000</div>
+            <div class="pqa-info-entry">Countersigned</div>
+            <div class="pqa-info-entry">02/02/21</div>
+        </div>
+    </div>
+
+    <div class="drs-and-pao">
+        <div class="detailed-revenue-source">
+            <div class="detailed-revenue-source-title">
+                Detailed Revenue Source
+            </div>
+            <div class="dts-row">
+                <div class="dts-title-entry">Source</div>
+                <div class="dts-title-entry">Amount</div>
+                <div class="dts-title-entry">Deposit Date</div>
+                <div class="dts-title-entry">Recoupment Balance</div>
+            </div>
+            <div class="dts-row">
+                <div class="dts-info-entry">Producer Advances</div>
+                <div class="dts-info-entry">$80,000</div>
+                <div class="dts-info-entry"></div>
+                <div class="dts-info-entry"></div>
+            </div>
+            <div class="dts-row">
+                <div class="dts-info-entry">BMI Domestic</div>
+                <div class="dts-info-entry">$30,000</div>
+                <div class="dts-info-entry"></div>
+                <div class="dts-info-entry">$400,000</div>
+            </div>
+            <div class="dts-row">
+                <div class="dts-info-entry">Sound Exchange</div>
+                <div class="dts-info-entry">$40,000</div>
+                <div class="dts-info-entry"></div>
+                <div class="dts-info-entry"></div>
+            </div>
+        </div>
+
+        <div class="producer-advances-owed">
+            <div class="pao-title">
+                Producer Advances Owed
+            </div>
+            <div class="pao-row">
+                <div class="pao-title-entry">Song Title</div>
+                <div class="pao-title-entry">Artist</div>
+                <div class="pao-title-entry">Label</div>
+                <div class="pao-title-entry">Amount</div>
+                <div class="pao-title-entry">Status</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ytd-summary">
+        <div class="ytd-summary-title">
+            YTD Summary
+        </div>
+        <div class="ytd-row">
+            <div class="ytd-title-entry">Total Income</div>
+            <div class="ytd-info-entry">$175,000</div>
+        </div>
+        <div class="ytd-row">
+            <div class="ytd-title-entry">Income Received</div>
+            <div class="ytd-info-entry">$80,000</div>
+        </div>
+        <div class="ytd-row">
+            <div class="ytd-title-entry">Outgoing Payments</div>
+            <div class="ytd-info-entry">$16,000</div>
+        </div>
+        <div class="ytd-row">
+            <div class="ytd-title-entry">Net Earnings</div>
+            <div class="ytd-info-entry">$64,000</div>
+        </div>
+    </div>
+</body>
+
+</html>
