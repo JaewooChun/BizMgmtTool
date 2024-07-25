@@ -72,13 +72,18 @@
     margin-bottom: 12px;
 }
 
-.detailed-revenue-source,
-.producer-advances-owed {
-    width: 720px;
+.bottom-half-dashboard {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: static;
 }
 
 .drs-and-pao {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
     vertical-align: top;
     width: 750px;
     padding-bottom: 4px;
@@ -89,32 +94,19 @@
     margin-right: 10px;
 }
 
-.detailed-revenue-source,
-.producer-advances-owed {
-    display: inline-block;
-    vertical-align: top;
-    padding: 16px;
-    padding-bottom: 4px;
-    position: static;
-    background-color: rgb(71, 71, 71);
-    border-radius: 12px;
-    margin: 0px;
-    margin-bottom: 12px;
-}
-
 .ytd-summary {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
     background-color: rgb(71, 71, 71);
     position: static;
     padding: 16px;
     padding-bottom: 4px;
-    width: 280px;
-    vertical-align: top;
-    height: 300px;
 
     border-radius: 12px;
     margin-bottom: 12px;
-    margin-left: 10px;
 }
 
 .dts-row,
@@ -130,8 +122,7 @@
 
 .dts-title-entry,
 .pqa-title-entry,
-.ytd-title-entry,
-.pao-title-entry {
+.ytd-title-entry {
     font-weight: 600;
     color: white;
     width: 155px;
@@ -139,8 +130,18 @@
 
 .dts-info-entry,
 .pqa-info-entry,
-.ytd-info-entry,
-.pao-info-entry {
+.ytd-info-entry {
     width: 155px;
     color: rgb(218, 216, 216);
+}
+
+.pao-title-entry {
+    font-weight: 600;
+    color: white;
+    width: 125px;
+}
+
+.pao-info-entry {
+    width: 155ox;
+    color: white;
 }
